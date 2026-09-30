@@ -1,0 +1,21 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.geekmarine/mcp-ssl-inspector",
+  "description": "Audits TLS/SSL handshake latency, HSTS headers, and HTTPS availability on the edge.",
+  "version": "1.0.0",
+  "repository": {
+    "url": "https://github.com/geekmarine/mcp-ssl-inspector",
+    "source": "github"
+  },
+  "configSchema": {
+    "type": "object",
+    "properties": {},
+    "required": []
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://mcp-ssl-inspector.stubby76.workers.dev/mcp"
+    }
+  ]
+}
